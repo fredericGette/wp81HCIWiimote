@@ -20,12 +20,12 @@
     </Page.Transitions>
 
     <Grid>
-        <Pivot x:Uid="Pivot" Title="MY APPLICATION" x:Name="pivot" CommonNavigationTransitionInfo.IsStaggerElement="True">
+        <Pivot x:Uid="Pivot" Title="wp81HCiWiimote" x:Name="pivot" CommonNavigationTransitionInfo.IsStaggerElement="True">
             <!--Pivot item one-->
             <PivotItem
                 x:Uid="PivotItem1"
                 Margin="19,14.5,0,0"
-                Header="first"
+                Header="Wiimotes"
                 DataContext="{Binding FirstGroup}"
                 d:DataContext="{Binding Groups[0], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
                 CommonNavigationTransitionInfo.IsStaggerElement="True">
@@ -62,7 +62,7 @@
             <PivotItem
                 x:Uid="PivotItem2"
                 Margin="19,14.5,0,0"
-                Header="second"
+                Header="Connected"
                 DataContext="{Binding SecondGroup}"
                 d:DataContext="{Binding Groups[1], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
                 <!--Double line list no text wrapping-->
